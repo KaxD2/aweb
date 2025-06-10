@@ -1,0 +1,142 @@
+### 1.1. Preguntas
+1. ¿Cómo se inicializa un repositorio local? (que comando se debe ejecutar?)
+	git init
+2. ¿Cómo hago para que un directorio deje de ser controlado por git? (que comando se debe ejecutar?)
+	rm -rf .git
+3. Si agrego un archivo a un directorio que ya está siendo controlado por git, ¿está siendo controlado por git?
+	Sí, si agregas un archivo a un directorio que ya está siendo controlado por Git, el archivo no estará bajo control de versiones hasta que lo agregues explícitamente al área de preparación (staging area) usando el comando `git add`.
+4. ¿Qué comando se utiliza para agregar un archivo al repositorio local?
+	``git add archivo``
+5. ¿Cómo determino que archivos fueron modificados? (que comando se debe ejecutar?)
+	``git status``
+6. ¿Qué comando se utiliza para hacer un commit?
+	``git commit -m "Mensaje"``
+7. En sus propias palabras, ¿qué es un commit?
+	Un commit es una copia del estado actual de los archivos en el repositorio
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   sandwich.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	"Aitor_Mu\303\261oz.txt"
+	"../2.branchs/Aitor_Mu\303\261oz.txt"
+	"../3.conflicts/Aitor_Mu\303\261oz.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+commit dc6edaf6de6e9d9d3e5561fa1fe9cebfdc7a8b08
+Author: KaxD2 <chetoscsgokaxd@gmail.com>
+Date:   Sun Jun 8 22:58:59 2025 +0200
+
+    Agrego salsa
+
+commit 9a81bfb3a125f71fae1cdc111a9e38f7885124cc
+Author: KaxD2 <chetoscsgokaxd@gmail.com>
+Date:   Sun Jun 8 22:55:21 2025 +0200
+
+    Agrego mi sandwich.txt
+
+commit 98666df3de233541237d55de82a11068c1ae34a7
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Tue May 20 13:50:12 2025 +0200
+
+    Update README.md
+
+commit 34ce0fa8f49eb4def8ee162ef152c0ad2510e9ab
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Tue May 20 13:49:17 2025 +0200
+
+    Update README.md
+
+commit 27ae2d4633df71d57f8caf6eba02df8e94cf9d91
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 12:23:35 2025 +0200
+
+    Update README.md
+
+commit f6afc2592973b03bb453145cc563f6f7074c9a7f
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 12:19:50 2025 +0200
+
+    Add files via upload
+
+commit 9d8e0e2b6cf30f98c92b1a78f14aeeee44b4e3bb
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 12:18:57 2025 +0200
+
+    Delete tallergitprog1-main directory
+
+commit 88fecc16a122d865f9d8558fc4cef1eedd2f209b
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 12:17:39 2025 +0200
+
+    Add files via upload
+
+commit 3a7d2855c5b4f45be24cdfef97d8cbde7affedc9
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 11:27:56 2025 +0200
+
+    Update estilos
+    
+    Añado 6 g extra al final de la línea 4
+
+commit dac6aed44b369c825b775155c6083a34a8410c69
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 11:15:24 2025 +0200
+
+    Rename estilos.md to estilos
+
+commit b15c251307a269207133e51078f926c31846f28d
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 10:42:50 2025 +0200
+
+    Update estilos.md
+    
+    Añado un segundo título.
+    Borro la palabra grammar de la primera línea
+
+commit 4327ba9c46eff663d9662d0b0f9eabb8a2157597
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 10:32:24 2025 +0200
+
+    Update and rename archivo_1.md to estilos.md
+
+commit 67da0bbeaf54bd874566cea5341487697160f75f
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 10:27:12 2025 +0200
+
+    Create archivo_1.md
+
+commit 167f211b33d87aeb4f1ed06c8e60850b41d849fb
+Merge: 175fc71 ddcaf01
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 5 11:25:10 2025 +0200
+
+    Merge pull request #1 from Lidia-lcm/rama-local
+    
+    Creacion de carpeta y subida de imagen
+
+commit ddcaf01a24fc71fe4a48588bc371ccdcccebd1a1
+Author: Lidia La Cal <lidialacalm@gmail.com>
+Date:   Mon May 5 11:00:01 2025 +0200
+
+    Creacion de carpeta y subida de imagen
+
+commit 175fc71ddee6effbea666b05d598d1ed758562d7
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon Apr 28 10:40:08 2025 +0200
+
+    Update README.md
+
+commit 7103b6ae7bf65fa34a6b34d88384e08cb3aa6234
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon Apr 28 10:01:29 2025 +0200
+
+    Initial commit
